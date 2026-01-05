@@ -331,19 +331,21 @@ body {
 }
 
 /* ===== RESPONSIVE ===== */
-
 @media (max-width: 480px) {
-    .nav-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-}
 
-.nav-menu {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  white-space: nowrap;
-}
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+
+  .koleksi-grid,
+  .card-wrapper,
+  .layanan-grid {
+    grid-template-columns: 1fr;
+  }
+
 }
