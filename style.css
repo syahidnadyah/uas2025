@@ -333,4 +333,17 @@ body {
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 480px) {
+    .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  white-space: nowrap;
+}
 }
