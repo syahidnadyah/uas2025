@@ -348,4 +348,17 @@ body {
     grid-template-columns: 1fr;
   }
 
+   .nav-wrapper {
+    flex-wrap: wrap;        /* BOLEH TURUN */
+    row-gap: 0.6rem;
+  }
+
+  .nav-menu {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;        /* MENU BOLEH PINDAH BARIS */
+    white-space: normal;    /* HAPUS PAKSA 1 BARIS */
+  }
+
+}
 }
